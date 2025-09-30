@@ -24,7 +24,7 @@ jobs:
           
       - name: 开始
         env:
-            CONFIG: ${{ secrets.CONFIG }}
+            CONFIG: ${{ secrets.CONFIG5 }}
         run: |
           pip3 install requests pytz pycryptodome
           python3 main.py
